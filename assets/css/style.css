@@ -9,8 +9,109 @@ Gris oscuro letra: #ba5e49
 Gris iconos : #646464
 Rojo : #e84848*/
 
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+
+body{
+	position: relative;
+}
+
+h1{
+	font-size: 80px;
+	color: #e84848;
+}
+
+.buscador{
+	margin: 20px 0;
+}
+
+.search{
+	width: 60%;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid #dbdbdb;
+}
+
+button{
+	background-color: transparent;
+}
+
+#az{
+	background-color: #7aa44a;
+	padding: 2px 6px;
+}
 
 .form-search{
 	display: inline;
 }
 
+.pokemon{
+	width: 250px;
+	height: 280px;
+	padding: 30px;
+	background-color: #dbdbdb;
+	margin: 0 auto;
+}
+
+.pokemon img{
+	width: 150px;
+	height: 150px;
+	margin-bottom: 48px;
+}
+
+.pokemones{
+	margin: 10px;
+}
+
+.icons{
+	background-color: : #646464;
+	width: 200px;
+    height: 10px;
+    border-right: 40px solid transparent;
+    border-left: 40px solid transparent;
+    border-bottom: 52px solid white;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.contenedor img{
+	width: 20px;
+	height: 20px;
+	margin-left: 8px;
+	margin: 0;
+}
+
+.nombres{
+	z-index: 1000;
+	position: absolute;
+}
+
+/*
+#mostrar-modal{
+	width: 80%;
+	height: 80%;
+	display: block;
+	text-decoration: none;
+	position: relative;
+	border-radius: 50%;
+}
+
+.pokemon-modal{
+	background-color: #edecec;
+	width: 700px;
+	height: 400px;
+	position: absolute;
+}
+
+.pokemon-modal img{
+	width: 200px;
+	height: 300px;
+}
+
+#parrafoModal{
+	position: absolute;
+	top: 50%;
+}
+*/
